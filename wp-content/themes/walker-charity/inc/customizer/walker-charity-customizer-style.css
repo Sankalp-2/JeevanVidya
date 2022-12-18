@@ -1,0 +1,145 @@
+.customize-control-walker-charity-radio-image img,
+#input_walker_charity_select_header_layout img{
+    margin: 5px 0;
+    transition: all ease 0.23s;
+    border: 1px solid #fff;
+}
+.customize-control-walker-charity-radio-image input,
+#input_walker_charity_select_header_layout input{
+	display: none;
+}
+.customize-control-walker-charity-radio-image img:hover, 
+.customize-control-walker-charity-radio-image input:checked + img,
+#input_walker_charity_select_header_layout img:hover,
+#input_walker_charity_select_header_layout input:checked + img{
+    border: 1px solid #3498de;
+    box-shadow: 0 0 7px rgb(34 113 177 / 83%);
+}
+#input_walker_charity_select_banner_layout label {
+    width: 48%;
+    float: left;
+    padding: 0 1%;
+}
+#input_blog_sidebar_layout label,
+#input_blog_post_view label {
+    max-width: 30%;
+    display: inline-block;
+    margin-right: 2%;
+}
+li#customize-control-walker_charity_about_section_padding_top, 
+li#customize-control-walker_charity_about_section_padding_bottom,
+li#customize-control-walker_charity_counter_section_padding_top,
+li#customize-control-walker_charity_counter_section_padding_bottom,
+li#customize-control-walker_charity_cta_section_padding_top,
+li#customize-control-walker_charity_cta_section_padding_bottom,
+li#customize-control-walker_charity_recentpost_section_padding_top,
+li#customize-control-walker_charity_recentpost_section_padding_bottom,
+li#customize-control-walker_charity_extra_page_section_padding_top,
+li#customize-control-walker_charity_extra_page_section_padding_bottom,
+li#customize-control-walker_charity_donation_section_padding_top,
+li#customize-control-walker_charity_donation_section_padding_bottom,
+li#customize-control-walker_charity_single_cta_section_padding_top,
+li#customize-control-walker_charity_single_cta_section_padding_bottom,
+li#customize-control-walker_charity_testimonial_section_padding_top,
+li#customize-control-walker_charity_testimonial_section_padding_bottom,
+li#customize-control-walker_charity_copyright_section_padding_top,
+li#customize-control-walker_charity_copyright_section_padding_bottom,
+li#customize-control-walker_charity_contact_section_padding_top,
+li#customize-control-walker_charity_contact_section_padding_bottom,
+li#customize-control-walker_charity_featured_section_padding_top,
+li#customize-control-walker_charity_featured_section_padding_bottom,
+li#customize-control-walker_charity_brands_section_padding_top,
+li#customize-control-walker_charity_brands_section_padding_bottom,
+li#customize-control-walker_charity_main_header_padding_top,
+li#customize-control-walker_charity_main_header_padding_bottom,
+li#customize-control-walker_charity_subheader_section_padding_top,
+li#customize-control-walker_charity_subheader_section_padding_bottom{
+    width: 50%;
+    clear: none;
+}
+#customize-theme-controls .customize-control input[type=text],
+#customize-theme-controls .customize-control input[type=url],
+#customize-theme-controls .customize-control textarea,
+#customize-theme-controls .customize-control input[type=checkbox],
+#customize-theme-controls .customize-control input[type=number],
+#customize-theme-controls .customize-control select {
+    border-radius: 0;
+    border-color: #e8e7e7;
+}
+li#accordion-section-walker_charity_info_section {
+    margin: 0;
+    padding: 0;
+}
+li#accordion-section-walker_charity_upsell_features_general_notice {
+    display: block !important;
+}
+li#accordion-section-walker_charity_info_section h3.accordion-section-title {
+    background: #c70315;
+    color: #fff;
+    margin: 0;
+}
+li#customize-control-walker_charity_info_message_text {
+    font-size: 18px;
+    color: #000;
+}
+li#customize-control-walker_charity_upsell_info ul,
+li#accordion-section-walker_charity_upsell_features_notices ul,
+li#accordion-section-walker_charity_upsell_features_general_notice ul {
+    list-style: none;
+    margin: 0;
+}
+li#customize-control-walker_charity_upsell_info {
+    background: #fff;
+    padding: 15px;
+    width: 91%;
+}
+li#customize-control-walker_charity_upsell_info ul li,
+li#accordion-section-walker_charity_upsell_features_notices ul li,
+li#accordion-section-walker_charity_upsell_features_general_notice ul li{
+    background: url(../../images/dashboard/check-icon.png) no-repeat 2px 6px;
+    padding-left: 25px;
+}
+
+li#customize-control-walker_charity_upsell_info a.button.walker_charity-pro-button,
+li#accordion-section-walker_charity_upsell_features_notices a.button.walker-charity-pro-button,
+li#accordion-section-walker_charity_upsell_features_general_notice a.button.walker-charity-pro-button{
+    background: #c70315;
+    color: #fff;
+    border: 0;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+a.button.walker_charity-pro-button.more-info,
+a.button.walker-charity-pro-button.more-info {
+    background: #087dd1 !important;
+}
+li#customize-control-walker_charity_upsell_info a.button.walker_charity-pro-button:hover,
+li#accordion-section-walker_charity_upsell_features_notices a.button.walker-charity-pro-button:hover,
+a.button.walker_charity-pro-button.more-info:hover,
+li#accordion-section-walker_charity_upsell_features_general_notice a.button.walker-charity-pro-button:hover{
+    background: #000!important;
+}
+li#accordion-section-walker_charity_info_section h3.accordion-section-title:hover {
+    background: #046dd6 !important;
+    color: #fff !important;
+}
+li#accordion-section-walker_charity_upsell_features_notices,
+li#accordion-section-walker_charity_upsell_features_general_notice {
+    display: block !important;
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+li#accordion-section-walker_charity_upsell_features_notices h3.accordion-section-title,
+li#accordion-section-walker_charity_upsell_features_general_notice  h3.accordion-section-title{
+    color: #000;
+    font-size: 18px;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+}
+li#customize-control-walker_charityinfo_message_text {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+}
